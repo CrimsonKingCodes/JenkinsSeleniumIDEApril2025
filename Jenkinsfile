@@ -7,22 +7,22 @@ pipeline{
       }
     }
 
-    stage(''){
+    stage('Setup .Net Core'){
       steps{
         
       }
     }
 
-    stage(''){
-      steps{
-        
-      }
+    stage('Restore dependencies'){
+
     }
 
-    stage('Checkout code'){
-      steps{
-        
-      }
+    stage('Build'){
+
+    }
+
+    stage('Run tests'){
+
     }
   }
 }
